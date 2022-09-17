@@ -163,4 +163,6 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# End of https://www.toptal.com/developers/gitignore/api/python
+
+# exclude the local config as it may contain secret tokens
+local_config.py
